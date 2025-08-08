@@ -1,6 +1,6 @@
 import discord
 from config import TOKEN
-
+from main import main
 from discord.ext import commands
 intents = discord.Intents.default()
 intents.message_content = True
@@ -15,7 +15,8 @@ async def merhaba(ctx: commands.Context):
 
 @bot.command()
 #Allahın izniyle bu kısım grafik üretecek elimde logic dosyası olmadığı için bu kısma bir şey yazamıyorum
-async def start(ctx):
-    pass
-
+async def start(ctx, x: int, y: int):
+    await ctx.send(main(x, y))
+    
 bot.run(TOKEN)
+
