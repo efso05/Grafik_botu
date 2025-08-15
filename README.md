@@ -16,10 +16,3 @@ Grafik Botu, veri dosyalarını analiz ederek etkileyici grafikler oluşturan bi
 - 💾 Grafik çıktısını kaydetme
 
 ---
-
-## 🚀 Kurulum
-
-```bash
-git clone https://github.com/efso05/Grafik_botu.git
-cd Grafik_botu
-pip install -r requirements.txt
