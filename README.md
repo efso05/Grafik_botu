@@ -11,8 +11,7 @@
 Grafik Botu, veri dosyalarını analiz ederek etkileyici grafikler oluşturan bir Python aracıdır. İster hızlı bir görselleştirme, ister detaylı bir rapor... Bu bot, veriye estetik kazandırmak için burada.
 
 - 🔍 Otomatik veri analizi
-- 📊 Çeşitli grafik türleri (çizgi, çubuk, pasta vs.)
-- 🧠 Akıllı filtreleme ve özetleme
+- 📊 Çeşitli grafik türleri (çizgi, nokta, sütun)
 - 💾 Grafik çıktısını kaydetme
 
 ---
